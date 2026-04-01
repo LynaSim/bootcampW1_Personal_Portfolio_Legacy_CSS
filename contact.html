@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,68 +10,74 @@
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <header>    
-        <h1>Hello, I'm Lyna,</h1>
-        <h2>a web dev in progress.</h2>
-        <nav>
+        <header>
+            <h1>Hello, I'm Lyna,</h1>
+            <h2>a web dev in progress.</h2>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">about</a></li>
+                    <li><a href="./projects.html">projects</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main class="contact-page">
+
+            <div>
+                <h3>Contact</h3>
+                <section class="contact-details">
+                    <p>Lyna Sim<br>Address Placeholder<br>SO14 1LY<br>Southampton</p>
+                    <p>Phone: <a href="tel:07000123456">07700 123456</a><br>Email: <a
+                            href="mailto:s.lyna.dev@gmail.com">s.lyna.dev@gmail.com</a></p>
+                </section>
+            </div>
+
+            <div class="form-container">
+                <p>Or, send me a note through the form below:</p>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
+
+                    <input type="submit" value="Send message">
+                </form>
+
+            </div>
+
+        </main>
+
+
+
+        <footer>
             <ul>
-                <li><a href="./index.html">about</a></li>
-                <li><a href="./projects.html">projects</a></li>
-                <li><a href="./contact.html">contact</a></li>
+                <li>
+                    <a href="mailto:s.lyna.dev@gmail.com"><img src="./assets/32px-gmail_icon.png" alt="email icon"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/s-lyna-dev" target="_blank"><img src="./assets/in_logo.png"
+                            alt="linkedin icon"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/LynaSim" target="_blank"><img src="./assets/github_logo.png"
+                            alt="github icon"></a>
+                </li>
+                <li>
+                    <p id="copyright">Copyright &copy; 2026 - Lyna Sim</p>
+                </li>
             </ul>
-        </nav>
-    </header>
 
-
-    <main class="contact-page">
-    
-    <div>
-        <h3>Contact</h3>
-            <section class="contact-details">
-                <p>Lyna Sim<br>9 Grey Havens Close<br>SO14 1LY<br>Southampton</p>
-                <p>Phone: <a href="tel:07000123456">07000 123456</a><br>Email: <a href="mailto:lyna.sim@email.com">lyna.sim@email.com</a></p>
-            </section>
-    </div>
-
-    <div class="form-container">
-    <p>Or, send me a note through the form below:</p>
-    <form>
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-    
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
-    
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" cols="50" required></textarea><br><br>
-    
-    <input type="submit" value="Send message">
-    </form>
+        </footer>
 
     </div>
-
-    </main>
-
-     
-  
-    <footer>
-        <ul>
-            <li>            
-                <a href="mailto:s.lyna.dev@gmail.com"><img src="./assets/32px-gmail_icon.png" alt="email icon"></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/s-lyna-dev" target="_blank"><img src="./assets/in_logo.png" alt="linkedin icon"></a>
-            </li>
-            <li>
-                <a href="https://github.com/LynaSim" target="_blank"><img src="./assets/github_logo.png" alt="github icon"></a>
-            </li>
-            <li><p id="copyright">Copyright &copy; 2026 - Lyna Sim</p></li>
-        </ul>
-        
-    </footer>
-
-</div>
 </body>
+
 </html>
